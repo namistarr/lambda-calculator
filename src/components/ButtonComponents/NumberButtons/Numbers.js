@@ -1,8 +1,10 @@
 import React from "react";
 
 //import any components needed
+import {numbers} from '../../../data.js';
 
 //Import your array data to from the provided data file
+const [numbers, setNumber] = useState(numbers);
 
 const Numbers = () => {
   // STEP 2 - add the imported data to state
